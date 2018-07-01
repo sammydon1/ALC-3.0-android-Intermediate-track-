@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1002384838220",
+    "firebase_url": "https://challenge-ba30b.firebaseio.com",
+    "project_id": "challenge-ba30b",
+    "storage_bucket": "challenge-ba30b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002384838220:android:bafe6151faf2ae9e",
+        "android_client_info": {
+          "package_name": "com.example.nwokedisamuel.journalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002384838220-e1465lmp4f30i2bkjhdt6i21ob56u201.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nwokedisamuel.journalapp",
+            "certificate_hash": "24e7522bbb31a201bdee772803a1b4adb719f280"
+          }
+        },
+        {
+          "client_id": "1002384838220-qmlbg29s1k9qld7qf57bsg395e2id1fj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwm__eaU-6PF5yOBWZkmO66_FnDtu_AOA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002384838220-qmlbg29s1k9qld7qf57bsg395e2id1fj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Journal App</string>
+    <string name="writeup1">
+        Journals help you share and keep track of you ideas, opinion and memories</string>
+    <string name="writeup2">sign in using your google account to create entries</string>
+    <string name="login">login</string>
+    <string name="signupintent">No account? create one</string>
+    <string name="signup">signup</string>
+</resources>
+

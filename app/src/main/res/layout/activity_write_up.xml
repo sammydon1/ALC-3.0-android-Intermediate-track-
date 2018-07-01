@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nwokedisamuel.journalapp.WriteUpActivity"
+    android:background="@drawable/login_background">
+
+
+
+    <EditText
+        android:id="@+id/caption"
+        android:layout_width="300dp"
+        android:textSize="25sp"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:paddingTop="5dp"
+        android:gravity="start"
+        android:textColor="@color/colorDark"
+        android:fontFamily="cursive"
+        android:hint="CAPTION"
+        android:background="@drawable/editmage"
+        android:layout_marginTop="50dp"
+        android:inputType="textAutoComplete"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:paddingTop="15dp"
+        android:gravity="start"
+        android:id="@+id/writupedit"
+        android:layout_width="300dp"
+        android:scrollbars="vertical"
+        android:fontFamily="cursive"
+        android:layout_height="200dp"
+        android:textColor="@color/colorDark"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:background="@drawable/editmage"
+        android:textSize="25sp"
+        android:hint="WHAT'S ON YOUR MIND?"
+        android:inputType="textAutoComplete" />
+
+    <Button
+        android:id="@+id/save"
+        android:background="@color/colorPurple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addEntry"
+        android:layout_below="@+id/writupedit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="ADD ENTRY"
+        android:textColor="@color/colorAccent"
+        tools:ignore="OnClick"/>
+
+</RelativeLayout>
